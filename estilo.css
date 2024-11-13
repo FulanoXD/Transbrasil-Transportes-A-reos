@@ -176,4 +176,10 @@ body {
   li {
     list-style: none;
   }
-  
+
+  @media (max-width: 600px) {
+    * {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+}
